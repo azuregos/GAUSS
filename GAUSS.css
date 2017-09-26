@@ -1,0 +1,106 @@
+.charsheet {
+    background-color: white;
+}
+
+.charsheet img {
+     border:1px solid gray
+}
+
+.charsheet table {
+    width: 100%;
+}
+
+.charsheet table.sheet-top td:first-child {
+    width: 200px;
+}
+
+.charsheet table.sheet-top td.sheet-label {
+    padding-left: 15px;
+    width: 100px;
+}
+
+.charsheet table.sheet-top td.sheet-label {
+    padding-left: 15px;
+    width: 100px;
+}
+
+.charsheet div.sheet-middle {
+    padding-top: 15px;
+}
+
+.charsheet table.sheet-skills td:first-child  {
+     font-weight: bold;
+     font-size: 16px;
+}
+
+.charsheet table.sheet-level {
+    margin-top: 20px
+}
+
+.charsheet table.sheet-stress td{
+     text-align: center;
+     padding: 0 3px;
+}
+
+.charsheet table.sheet-wounds td:first-child  {
+     font-weight: bold;
+     font-size: 16px;
+     color: gray;
+}
+
+.charsheet table.sheet-wounds td:last-child  {
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     font-size: 11px;
+     color: gray;
+     text-align: right;
+}
+
+.charsheet label.sheet-cl {
+    width: 100%;
+    text-align: center;
+    background-color: #777777;
+    color: white;
+    padding-right: 0px;
+}
+
+.charsheet label {
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.charsheet input[type=text] {
+	width: 100%;
+}
+
+.charsheet input[type=text].sheet-center {
+	width: 100%;
+	text-align: center;
+}
+
+.charsheet input[type=checkbox] {
+	display: none;
+}
+
+.charsheet input[type=checkbox] + label{
+    display:block; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+    background-color: white;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.charsheet input[type=checkbox]:checked + label{
+    display:block; 
+	background-color: #9D9C9C;
+}
+
+
+
